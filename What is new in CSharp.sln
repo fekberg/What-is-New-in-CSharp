@@ -5,35 +5,57 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 6.0", "CSharp 6.0", "{5503AE74-B6E6-4C43-830A-5DAC7323C6FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Using Statements for Static Members", "CSharp 6.0\Using Statements for Static Members\1. Using Statements for Static Members.csproj", "{7BDC7F3E-70D9-43BF-ABED-C0D6DE24CA37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Using Statements for Static Members", "CSharp 6.0\Using Statements for Static Members\1. Using Statements for Static Members.csproj", "{7BDC7F3E-70D9-43BF-ABED-C0D6DE24CA37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Auto-Property Initializers", "CSharp 6.0\Auto-Property Initializers\2. Auto-Property Initializers.csproj", "{1C5F07E1-46D4-4E74-8E0D-2E38A0AD04D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Auto-Property Initializers", "CSharp 6.0\Auto-Property Initializers\2. Auto-Property Initializers.csproj", "{1C5F07E1-46D4-4E74-8E0D-2E38A0AD04D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Await inside Catch Finally blocks", "CSharp 6.0\Await inside Catch Finally blocks\3. Await inside Catch Finally blocks.csproj", "{D53CC683-E03E-4286-B4DF-A8CFDCAD2B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Await inside Catch Finally blocks", "CSharp 6.0\Await inside Catch Finally blocks\3. Await inside Catch Finally blocks.csproj", "{D53CC683-E03E-4286-B4DF-A8CFDCAD2B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Null-conditional operators", "CSharp 6.0\Null-conditional operators\4. Null-conditional operators.csproj", "{FAC440B6-97D8-4131-AC7B-7BF8731F3B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Null-conditional operators", "CSharp 6.0\Null-conditional operators\4. Null-conditional operators.csproj", "{FAC440B6-97D8-4131-AC7B-7BF8731F3B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Expression-bodied members", "CSharp 6.0\Expression-bodied members\5. Expression-bodied members.csproj", "{0EBBD940-255C-475D-8711-69CB559D3E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Expression-bodied members", "CSharp 6.0\Expression-bodied members\5. Expression-bodied members.csproj", "{0EBBD940-255C-475D-8711-69CB559D3E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Exception Filters", "CSharp 6.0\Exception Filters\6. Exception Filters.csproj", "{E160FAA7-5E2B-4308-A9A4-9EDBB820EE32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Exception Filters", "CSharp 6.0\Exception Filters\6. Exception Filters.csproj", "{E160FAA7-5E2B-4308-A9A4-9EDBB820EE32}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 7.0", "CSharp 7.0", "{74B1641E-D065-4657-AF84-56619453DBA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Tuples", "CSharp 7.0\Tuples\1. Tuples.csproj", "{A3805904-1B1A-4DA0-AEB7-3E9B9C0493A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Tuples", "CSharp 7.0\Tuples\1. Tuples.csproj", "{A3805904-1B1A-4DA0-AEB7-3E9B9C0493A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Pattern Matching", "CSharp 7.0\Pattern Matching\2. Pattern Matching.csproj", "{7C6B96C0-AA52-4F3B-A707-3C761CB264A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Pattern Matching", "CSharp 7.0\Pattern Matching\2. Pattern Matching.csproj", "{7C6B96C0-AA52-4F3B-A707-3C761CB264A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Local Functions", "CSharp 7.0\Local Functions\3. Local Functions.csproj", "{B5031B3D-5A3D-43E7-9D82-26B33DD4227C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Local Functions", "CSharp 7.0\Local Functions\3. Local Functions.csproj", "{B5031B3D-5A3D-43E7-9D82-26B33DD4227C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ref returns", "CSharp 7.0\ref returns\4. ref returns.csproj", "{1DF8DB6D-84FC-4A58-8031-EFA74D04125B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. ref returns", "CSharp 7.0\ref returns\4. ref returns.csproj", "{1DF8DB6D-84FC-4A58-8031-EFA74D04125B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "out improvement", "CSharp 7.0\out improvement\out improvement.csproj", "{5501D0CD-D9EC-4ECA-8BBC-7A54B9FF3062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. out improvement", "CSharp 7.0\out improvement\5. out improvement.csproj", "{5501D0CD-D9EC-4ECA-8BBC-7A54B9FF3062}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 7.1", "CSharp 7.1", "{8119E70F-078B-4C83-B36C-E4FDBCEE4E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Async Main and Default Expression", "CSharp 7.1\Async Main\1. Async Main and Default Expression.csproj", "{851501A2-EBC0-4167-80C0-EF8932622C07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Async Main and Default Expression", "CSharp 7.1\Async Main\1. Async Main and Default Expression.csproj", "{851501A2-EBC0-4167-80C0-EF8932622C07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Infer Tuple Names", "CSharp 7.1\Infer Tuple Names\2. Infer Tuple Names.csproj", "{3449416F-C5B9-43E7-B142-FB2DE6E4FEDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Infer Tuple Names", "CSharp 7.1\Infer Tuple Names\2. Infer Tuple Names.csproj", "{3449416F-C5B9-43E7-B142-FB2DE6E4FEDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 7.2", "CSharp 7.2", "{D215E173-9CB8-44D4-8841-7DEE14FF45CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 7.3", "CSharp 7.3", "{0D443B65-B03A-4CAD-9C7E-65D2883A2EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 8.0", "CSharp 8.0", "{4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. ref readonly and in parameters", "CSharp 7.2\ref readonly and in parameters\1. ref readonly and in parameters.csproj", "{35019528-3A2F-4DD2-940F-01B285B7C513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Tuple equality", "CSharp 7.3\Tuple equality\1. Tuple equality.csproj", "{89FF34AA-DFB1-4934-8021-82DC0AFC7F08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Generic Constraints", "CSharp 7.3\Generic Constraints\2. Generic Constraints.csproj", "{8D8E58EF-6223-4B8D-934F-947E109C0B90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Span and stackalloc", "CSharp 7.2\Span and stackalloc\2. Span and stackalloc.csproj", "{475BE353-8FBC-41F3-9E9B-668C87B998D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. stackalloc initializers", "CSharp 7.3\stackalloc initializers\3. stackalloc initializers.csproj", "{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Ranges", "CSharp 8.0\Ranges\1. Ranges.csproj", "{3F742426-ED44-4812-8890-0330A0AD3466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Recrusive Patterns", "CSharp 8.0\Recrusive Patterns\2. Recrusive Patterns.csproj", "{279346D8-1C59-4E71-83EB-FB7E1D99C428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Nullable references", "CSharp 8.0\Nullable references\3. Nullable references.csproj", "{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +115,38 @@ Global
 		{3449416F-C5B9-43E7-B142-FB2DE6E4FEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3449416F-C5B9-43E7-B142-FB2DE6E4FEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3449416F-C5B9-43E7-B142-FB2DE6E4FEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35019528-3A2F-4DD2-940F-01B285B7C513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35019528-3A2F-4DD2-940F-01B285B7C513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35019528-3A2F-4DD2-940F-01B285B7C513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35019528-3A2F-4DD2-940F-01B285B7C513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FF34AA-DFB1-4934-8021-82DC0AFC7F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FF34AA-DFB1-4934-8021-82DC0AFC7F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FF34AA-DFB1-4934-8021-82DC0AFC7F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FF34AA-DFB1-4934-8021-82DC0AFC7F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8E58EF-6223-4B8D-934F-947E109C0B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8E58EF-6223-4B8D-934F-947E109C0B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8E58EF-6223-4B8D-934F-947E109C0B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8E58EF-6223-4B8D-934F-947E109C0B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475BE353-8FBC-41F3-9E9B-668C87B998D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475BE353-8FBC-41F3-9E9B-668C87B998D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475BE353-8FBC-41F3-9E9B-668C87B998D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475BE353-8FBC-41F3-9E9B-668C87B998D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F742426-ED44-4812-8890-0330A0AD3466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F742426-ED44-4812-8890-0330A0AD3466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F742426-ED44-4812-8890-0330A0AD3466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F742426-ED44-4812-8890-0330A0AD3466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279346D8-1C59-4E71-83EB-FB7E1D99C428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279346D8-1C59-4E71-83EB-FB7E1D99C428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279346D8-1C59-4E71-83EB-FB7E1D99C428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279346D8-1C59-4E71-83EB-FB7E1D99C428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +165,14 @@ Global
 		{5501D0CD-D9EC-4ECA-8BBC-7A54B9FF3062} = {74B1641E-D065-4657-AF84-56619453DBA1}
 		{851501A2-EBC0-4167-80C0-EF8932622C07} = {8119E70F-078B-4C83-B36C-E4FDBCEE4E1E}
 		{3449416F-C5B9-43E7-B142-FB2DE6E4FEDC} = {8119E70F-078B-4C83-B36C-E4FDBCEE4E1E}
+		{35019528-3A2F-4DD2-940F-01B285B7C513} = {D215E173-9CB8-44D4-8841-7DEE14FF45CC}
+		{89FF34AA-DFB1-4934-8021-82DC0AFC7F08} = {0D443B65-B03A-4CAD-9C7E-65D2883A2EA7}
+		{8D8E58EF-6223-4B8D-934F-947E109C0B90} = {0D443B65-B03A-4CAD-9C7E-65D2883A2EA7}
+		{475BE353-8FBC-41F3-9E9B-668C87B998D7} = {D215E173-9CB8-44D4-8841-7DEE14FF45CC}
+		{A8E78795-AC7D-48E5-A4E6-019DFDDD3566} = {0D443B65-B03A-4CAD-9C7E-65D2883A2EA7}
+		{3F742426-ED44-4812-8890-0330A0AD3466} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
+		{279346D8-1C59-4E71-83EB-FB7E1D99C428} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
+		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C383859-5E74-4882-BA2B-E71C3CBBA3EE}
