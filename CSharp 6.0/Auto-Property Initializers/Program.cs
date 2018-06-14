@@ -4,7 +4,7 @@ namespace Auto_Property_Initializers
 {
     class Program
     {
-        public static string Name { get; private set; } = "Filip";
+        public static string Name { get; } = "Filip";
         
         static void Main(string[] args)
         {
