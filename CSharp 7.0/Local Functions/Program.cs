@@ -12,7 +12,6 @@ namespace Local_Functions
 
             var value = 2_1;
             
-            // Call a local function
             Console.WriteLine($"Calcuate for: {value}");
 
             var result = Calculate(value);

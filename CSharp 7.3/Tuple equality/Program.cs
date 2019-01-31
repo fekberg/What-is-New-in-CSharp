@@ -12,6 +12,7 @@ namespace Tuple_equality
         static void Main(string[] args)
         {
             var result = Compute();
+            
             Console.WriteLine(result == (100, 200));
         }
     }

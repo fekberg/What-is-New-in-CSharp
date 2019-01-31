@@ -8,7 +8,7 @@ namespace Ranges
         {
             Span<int> data = stackalloc[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            var slice = data.Slice(5..);
+            var slice = data.Slice(5..^1);
 
             foreach (var x in slice) Console.WriteLine(x);
         }

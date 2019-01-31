@@ -16,9 +16,12 @@ namespace ref_readonly_and_in_parameters
             int x = 10;
             int y = 20;
 
-            var z = Compute(x: ref x, // non-trailing named arguments
+            ref readonly var z = ref Compute(
+                x: ref x, // non-trailing named arguments
                 in y); // "in" is redudant
 
+            // z = 100;
+            
             Console.WriteLine($"x: {x}, y: {y}, z: {z}");
         }
     }

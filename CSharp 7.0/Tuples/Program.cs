@@ -12,9 +12,10 @@ namespace Tuples
 
         static void Main(string[] args)
         {
+
             // Deconstruction
             (int x, int y) point = GetPoint();
-            
+           
             WriteLine($"{nameof(point.x)} : {point.x}");
             WriteLine($"{nameof(point.y)} : {point.y}");
 

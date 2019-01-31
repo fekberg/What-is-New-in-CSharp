@@ -11,15 +11,15 @@ namespace Nullable_references
             Print(p);
         }
 
-        static void Print(Person p)
+        static void Print(Person? p)
         {
-            Console.WriteLine(p.Name.Length);
+            Console.WriteLine((null as Person)!.Name?.Length);
         }
 
     }
 
     class Person
-    {
+    { 
         public string? Name { get; set; }
 
         public Person()

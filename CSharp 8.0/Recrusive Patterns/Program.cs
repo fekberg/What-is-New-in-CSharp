@@ -21,7 +21,7 @@ namespace Recrusive_Patterns
                 Triangle (var a, var b, var c, (_, var y)) => $"A: {a}, B: {b}, C: {c}, Y: {y}",
 
                 Rectangle r => $"X: {r.Point.X}, Y: {r.Point.Y}",
-                
+
                 _ => "No point?"
             };
         }
