@@ -7,7 +7,7 @@ namespace ref_readonly_and_in_parameters
         static ref readonly int Compute(ref int x, in int y)
         {
             x = y + 1;
-            // y = y + 2;
+            //cy = y + 2;
 
             return ref y;
         }
@@ -16,12 +16,11 @@ namespace ref_readonly_and_in_parameters
             int x = 10;
             int y = 20;
 
-            ref readonly var z = ref Compute(
-                x: ref x, // non-trailing named arguments
+            // Copy the ref value to z
+            var z = Compute(x: ref x, // non-trailing named arguments
                 in y); // "in" is redudant
 
-            // z = 100;
-            
+
             Console.WriteLine($"x: {x}, y: {y}, z: {z}");
         }
     }

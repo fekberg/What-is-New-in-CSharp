@@ -10,7 +10,7 @@ namespace Infer_Tuple_Names
             
             var tuple = (point.X, point.Y);
             
-            // tuple.Item1, tuple.Item2
+            //tuple.Item1, tuple.Item2
 
             Console.WriteLine(tuple.X);
         }

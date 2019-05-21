@@ -8,7 +8,7 @@ namespace Auto_Property_Initializers
         
         static void Main(string[] args)
         {
-            // Name = "Can't do that!";
+            Name = "Can't do that!";
 
             Console.WriteLine(Name);
         }

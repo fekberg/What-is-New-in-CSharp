@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp 6.0", "CSharp 6.0", "{5503AE74-B6E6-4C43-830A-5DAC7323C6FC}"
 EndProject
@@ -49,13 +49,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Generic Constraints", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Span and stackalloc", "CSharp 7.2\Span and stackalloc\2. Span and stackalloc.csproj", "{475BE353-8FBC-41F3-9E9B-668C87B998D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. stackalloc initializers", "CSharp 7.3\stackalloc initializers\3. stackalloc initializers.csproj", "{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. stackalloc initializers", "CSharp 7.3\stackalloc initializers\3. stackalloc initializers.csproj", "{A8E78795-AC7D-48E5-A4E6-019DFDDD3566}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Ranges", "CSharp 8.0\Ranges\1. Ranges.csproj", "{3F742426-ED44-4812-8890-0330A0AD3466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Recrusive Patterns", "CSharp 8.0\Recrusive Patterns\2. Recrusive Patterns.csproj", "{279346D8-1C59-4E71-83EB-FB7E1D99C428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Recrusive Patterns", "CSharp 8.0\Recrusive Patterns\2. Recrusive Patterns.csproj", "{279346D8-1C59-4E71-83EB-FB7E1D99C428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Nullable references", "CSharp 8.0\Nullable references\3. Nullable references.csproj", "{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Nullable references", "CSharp 8.0\Nullable references\3. Nullable references.csproj", "{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Async Streams", "CSharp 8.0\Async_Streams\6. Async Streams.csproj", "{E4C1A4D4-7C63-4B17-A50D-C08CD2EC2916}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Static Local Functions", "CSharp 8.0\StaticLocal\5. Static Local Functions.csproj", "{DDD8CF66-D7DD-4F0C-942D-053040844A70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Using Declarations", "CSharp 8.0\Using_Declarations\4. Using Declarations.csproj", "{F96B0762-1F00-431A-A6E5-FD1E4DADB5E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +153,18 @@ Global
 		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C1A4D4-7C63-4B17-A50D-C08CD2EC2916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C1A4D4-7C63-4B17-A50D-C08CD2EC2916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C1A4D4-7C63-4B17-A50D-C08CD2EC2916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C1A4D4-7C63-4B17-A50D-C08CD2EC2916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD8CF66-D7DD-4F0C-942D-053040844A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD8CF66-D7DD-4F0C-942D-053040844A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD8CF66-D7DD-4F0C-942D-053040844A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD8CF66-D7DD-4F0C-942D-053040844A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96B0762-1F00-431A-A6E5-FD1E4DADB5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96B0762-1F00-431A-A6E5-FD1E4DADB5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96B0762-1F00-431A-A6E5-FD1E4DADB5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96B0762-1F00-431A-A6E5-FD1E4DADB5E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +191,9 @@ Global
 		{3F742426-ED44-4812-8890-0330A0AD3466} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
 		{279346D8-1C59-4E71-83EB-FB7E1D99C428} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
 		{4B3BC6AE-915A-45C7-9C85-604C0E97C21D} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
+		{E4C1A4D4-7C63-4B17-A50D-C08CD2EC2916} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
+		{DDD8CF66-D7DD-4F0C-942D-053040844A70} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
+		{F96B0762-1F00-431A-A6E5-FD1E4DADB5E5} = {4CB5F285-5403-400A-8BFE-7DE1EADEAEEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C383859-5E74-4882-BA2B-E71C3CBBA3EE}

@@ -6,7 +6,7 @@ namespace Span_and_stackalloc
     {
         static void Main(string[] args)
         {
-            Span<int> tickets = stackalloc int[100];
+            Span<int> tickets = new int[100];
 
             var sliceOfTickets = tickets.Slice(50, 10);
         }

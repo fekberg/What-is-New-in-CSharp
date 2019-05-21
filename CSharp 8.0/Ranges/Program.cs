@@ -8,60 +8,59 @@ namespace Ranges
         {
             Span<int> data = stackalloc[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
+            #region Slice 5..^1
+
             var slice = data.Slice(5..^1);
 
-            foreach (var x in slice) Console.WriteLine(x);
+            foreach (var number in slice)
+            {
+                Console.WriteLine(number);
+            }
+            Console.WriteLine();
+
+            #endregion
+
+            #region Range 1..4
+
+            foreach (var number in data[1..4])
+            {
+                Console.WriteLine(number);
+            }
+            Console.WriteLine();
+
+            #endregion
+
+            #region Index ^5
+            Index index = ^5;
+            Console.WriteLine(data[index]);
+            Console.WriteLine();
+            #endregion
+
+            #region [first..last]
+            var first = ^4;
+            var last = ^2;
+            foreach (var number in data[first..last])
+            {
+                Console.WriteLine(number);
+            }
+            Console.WriteLine();
+            #endregion
         }
     }
 }
 
 namespace System
 {
-    public readonly struct Index
-    {
-        private readonly int _value;
-
-        public int Value => _value < 0 ? ~_value : _value;
-        public bool FromEnd => _value < 0;
-
-        public Index(int value, bool fromEnd)
-        {
-            if (value < 0) throw new ArgumentException("Index must not be negative.", nameof(value));
-
-            _value = fromEnd ? ~value : value;
-        }
-
-        public static implicit operator Index(int value)
-            => new Index(value, fromEnd: false);
-    }
-
-    public readonly struct Range
-    {
-        public Index Start { get; }
-        public Index End { get; }
-
-        private Range(Index start, Index end)
-        {
-            this.Start = start;
-            this.End = end;
-        }
-
-        public static Range Create(Index start, Index end) => new Range(start, end);
-        public static Range FromStart(Index start) => new Range(start, new Index(0, fromEnd: true));
-        public static Range ToEnd(Index end) => new Range(new Index(0, fromEnd: false), end);
-        public static Range All() => new Range(new Index(0, fromEnd: false), new Index(0, fromEnd: true));
-    }
-
     static class Extensions
     {
         public static int get_IndexerExtension(this int[] array, Index index) =>
-            index.FromEnd ? array[array.Length - index.Value] : array[index.Value];
+            index.IsFromEnd ? array[array.Length - index.Value] : array[index.Value];
 
         public static int get_IndexerExtension(this Span<int> span, Index index) =>
-            index.FromEnd ? span[span.Length - index.Value] : span[index.Value];
+            index.IsFromEnd ? span[span.Length - index.Value] : span[index.Value];
 
         public static char get_IndexerExtension(this string s, Index index) =>
-            index.FromEnd ? s[s.Length - index.Value] : s[index.Value];
+            index.IsFromEnd ? s[s.Length - index.Value] : s[index.Value];
 
         public static Span<int> get_IndexerExtension(this int[] array, Range range) =>
             array.Slice(range);
@@ -89,8 +88,8 @@ namespace System
 
         private static (int start, int length) GetStartAndLength(Range range, int entityLength)
         {
-            var start = range.Start.FromEnd ? entityLength - range.Start.Value : range.Start.Value;
-            var end = range.End.FromEnd ? entityLength - range.End.Value : range.End.Value;
+            var start = range.Start.IsFromEnd ? entityLength - range.Start.Value : range.Start.Value;
+            var end = range.End.IsFromEnd ? entityLength - range.End.Value : range.End.Value;
             var length = end - start;
 
             return (start, length);

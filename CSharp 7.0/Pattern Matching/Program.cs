@@ -36,6 +36,7 @@ namespace Pattern_Matching
         public int B { get; set; }
         public int C { get; set; }
     }
+
     class Rectangle : Shape
     {
         public int X { get; set; }

@@ -15,7 +15,7 @@ namespace Null_conditional_operators
 
             ProcessPeople(people);
 
-            var otherPeople = null as Person[];
+            Person[] otherPeople = null;
 
             WriteLine($"Who's first? {otherPeople?[0]?.Name ?? "None"}");
         }

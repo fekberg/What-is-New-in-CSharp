@@ -16,6 +16,6 @@ namespace Expression_bodied_members
     {
         public string Name { get; set; }
 
-        public override string ToString() => Name;
+        public override string ToString() => $"My name is {Name}";
     }
 }
